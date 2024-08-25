@@ -1,0 +1,259 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahoudeaux Maxime</title>
+    <meta name="description" content="portfolio de maxime mahoudeaux - alternant cher FANUC">
+    <link rel="shortcut icon" href="./image/logo.ico?v=1" type="image/x-icon">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+   <!--
+    rapide liste de ce qu'il faut faire en html
+
+    barre du haut:
+    -menu déroulant
+    -social
+    -logo
+    -menu normal
+
+    Hero
+    right
+    left
+
+    About
+    right
+    left
+
+    Experience
+    -etude
+    -pro
+    Skill
+    Contact
+
+    footer
+   --> 
+   <header class="header">
+        <div class="container  d-flex">
+            <div class="logo">
+                accueil du site
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="#about">A propos de</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#skill">Compétences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="cv.html" target="_blank">CV</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="social list-unstyled">
+                    <li class="insta">
+                        <a href="https://www.instagram.com/max.mdx/?next=%2F" target="_blank">
+                          <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                            class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                            </path></svg></a></li>
+                    <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/maxime-mahoudeaux-8367702a2/" target="_blank">
+                        <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                          class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                          </path></svg></a></li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+   </header>
+   
+   <section id="hero" class="hero">
+    <div class="container">
+        <div class="grid">
+            <div class="hero__item left">
+                <span> alternant en but GEII</span>
+                <h1 class="title"> Salut je m'appelle maxime mahoudeaux</h1>
+                <p>Alternant en dernière année de BUT GEII(Génie Electrique et Informatique Inudstrielle). Faisans mon alternance dans l'entreprise FANUC je suis maintenant pâssionné par la robotique depuis mes deux chez eux</p></div>
+                <div class="hero__item right">
+                    <img src="./image/photo.jpg" alt="Mahoudeaux Maxime">
+                </div>
+        </div>
+    </div>
+   </section>
+   <section id="about" class="about">
+    <div class="container">
+        <div class="grid">
+            <div class="grid__item">
+                <img src="./image/puce.png" alt="puce simple"class="image-puce">
+                <img src="./image/robot_fanuc.png" alt="robot fanuc simplifié" class="image-robot1">
+            </div>
+            <div class="grid__item">
+                <h2 class="section-title">à propos</h2>
+                <h3>Qui suis-je</h3>
+                <p> Passionné par l'ingénierie, j'ai développé des compétences solides en electronique, informatique, robotique . Récemment admis à Polytech Sorbonne, je suis enthousiaste à l'idée de poursuivre mes études en école d'ingénieur, où je compte approfondir mes connaissances et contribuer à des projets innovants. Je suis motivé par le désir de résoudre des problèmes complexes et de créer des solutions technologiques qui feront la différence."</p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header">
+        <h2 class="section-title">mes expériences</h2>
+        <p>Tout au long de mes études, j'ai eu l'opportunité d'acquérir une riche expérience dans les domaines qui me passionnent le plus, tel que:</p>
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <div class="service">
+                    <div class="service__icon">
+                        <img src="./image/fanuc_icon.png" alt="robot de fanuc LRM">
+                    </div>
+                    <div class="service__content">
+                        <h3>Fanuc</h3>
+                        <p>Au cours de mes deux ans d'alternance chez Fanuc en tant que préparateur de robot, j'ai acquis une expertise approfondie dans la programmation, l'installation et la maintenance de systèmes robotiques avancés. Cette expérience m'a permis de développer des compétences pratiques en optimisation des performances des robots, en résolution de problèmes techniques, et en gestion de projets d'automatisation, tout en collaborant étroitement avec des équipes multidisciplinaires pour améliorer les processus industriels.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                    </div>
+                    <div class="service__content">
+                        <h3>Stage thales</h3>
+                        <p>Lors de mon stage de 3e chez Thales, j'ai eu l'occasion de plonger dans l'univers fascinant de la technologie. Cette expérience m'a offert un premier aperçu du monde de l'ingénierie et des innovations technologiques. J'ai découvert comment les équipes travaillent ensemble pour développer des solutions avancées dans des domaines tels que la défense, l'aéronautique, et les systèmes de communication.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                    </div>
+                    <div class="service__content">
+                        <h3>But GEII</h3>
+                        <p>Au cours de mon BUT Génie Electrique et Informatique Industrielle (GEII), j'ai acquis une solide expérience dans la conception, l'optimisation, et la maintenance des systèmes électriques et informatiques. J'ai travaillé sur des projets variés, allant de l'automatisation des processus industriels à la gestion des réseaux de communication, ce qui m'a permis de développer une compréhension approfondie des technologies actuelles et des compétences pratiques essentielles dans le domaine de l'électrotechnique et de l'informatique industrielle.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__icon">
+                    </div>
+                    <div class="service__content">
+                        <h3>developpement page web</h3>
+                        <p>En développant un site web rapidement, j'ai acquis une expérience précieuse dans la gestion efficace des délais, la conception intuitive de l'interface utilisateur, et l'optimisation des performances. Ce projet m'a permis de maîtriser les technologies web modernes et de renforcer mes compétences en programmation, tout en améliorant ma capacité à résoudre des problèmes techniques de manière agile et efficace.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="grid__item">
+                
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="skill" class="skill">
+    <div class="container">
+        <div class="section-header">
+        <h2 class="section-title">Mes compétences</h2>
+        <p>Je maîtrise l’ensemble du processus technique allant de la réalisation d'assemblages complexes à la vérification rigoureuse de leur qualité. Grâce à mes compétences en conception et en contrôle, je garantis des solutions fiables et innovantes tout au long des projets d’ingénierie.</p>
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <h3>Domaines des compétences</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <h4>Soudure</h4>
+                        <p>Je possède des compétences avancées en soudure, ce qui me permet de réaliser des assemblages métalliques précis et durables en utilisant diverses techniques de soudage. Cette expertise inclut la maîtrise des procédés de soudure, le contrôle de la qualité des joints, et l'assurance que les soudures répondent aux normes de sécurité et de performance requises.</p>
+                    </li>
+                    <li>
+                        <h4>Inspection et contrôle de la qualité</h4>
+                        <p>Je maîtrise l'inspection et le contrôle de la qualité des assemblages soudés, ce qui me permet de vérifier la conformité des soudures aux normes et spécifications techniques. Cette compétence inclut l'utilisation d'outils de mesure, l'analyse des défauts, et la mise en place de procédures pour garantir que chaque joint est robuste, fiable et conforme aux exigences de sécurité.</p>
+                    </li>
+                    <li>
+                        <h4>Analyse et optimisation des systèmes</h4>
+                        <p>Je suis compétent dans l'analyse et l'optimisation des systèmes, ce qui me permet d'évaluer les performances techniques, d'identifier les points d'amélioration, et de mettre en œuvre des solutions pour maximiser l'efficacité et la fiabilité. Cette compétence me permet de résoudre les problèmes complexes et d'améliorer les processus pour atteindre des résultats optimaux.</p>
+                    </li>
+                    <li>
+                        <h4>Gestion de projet</h4>
+                        <p>Je maîtrise la gestion de projet, ce qui me permet de planifier, coordonner et superviser chaque phase d'un projet, de la conception à la réalisation. Cette compétence me permet de gérer efficacement les ressources, de respecter les délais, et de garantir que les objectifs techniques et budgétaires sont atteints avec succès.</p>
+                    </li>
+                </ul>
+                <div class="grid__item">
+                    <h3>Compétence en développement</h3>
+                    <div class="progressbar">
+                        <div class="bar" style="width:66%;">HTML</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" style="width:55%;">CSS</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" style="width:40%;">Javascript</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" style="width:70%;">Python</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" style="width:80%;">C</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" style="width:75%;">SQL</div>
+                    </div>
+                </div>
+    </div>
+    </section>
+   <section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">mes contacts</h2>
+            <p>N'hésitez pas à me contacter si vous cherchez à parler à un ingénieur passionné, engagé et capable d'apporter des solutions innovantes à vos projets.</p>
+        </div>
+        <form action="contact.php" class="form">
+            <label for="firstname">
+                <input type="text" name="firstname" id="firstname" placeholder="Nom">
+            </label>
+            <label for="lastname">
+                <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+            </label>
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </label>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" class="btn" value="Envoyer">
+        </form>
+   </section>
+   
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>MAHOUDEAUX Maxime</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="social list-unstyled">
+                        <li>
+                            <a href="https://google.fr">
+                              <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                                class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path></svg></a></li>
+                        <li>
+                        <a href="https://google.fr">
+                            <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                              class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 448 512">
+                              <path fill="currentColor"
+                                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                              </path></svg></a></li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    Copyright © 2024 Mahoudeaux Maxime. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    <footer>
+   
+</body>
+</html>
